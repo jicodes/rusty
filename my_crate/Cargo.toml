@@ -1,0 +1,7 @@
+[package]
+name = "my_crate"
+version = "0.1.0"
+authors = ["Your Name"]
+edition = "2021"
+
+[dependencies]
