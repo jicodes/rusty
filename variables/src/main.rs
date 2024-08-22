@@ -7,7 +7,7 @@ fn main() {
     const SPEED_OF_LIGHT:f64 = 299_792_458.0;
     println!("The speed of light is: {} m/s", SPEED_OF_LIGHT);
 
-    // stellar data type
+    // Scalar Types(primitive types)
     // integer
     let a:i32 = 99_123; // decimal
     let b:i32  = 0xff;// hexadecimal
