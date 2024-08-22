@@ -58,6 +58,8 @@ fn main() {
 
     let a = [3; 5]; // [3, 3, 3, 3, 3]
 
+    // use `debug` {:?} to print array or other complex types
+    println!("Printing array a: {:?}", a);
    
     // function
     let sum = my_function(11, 22);
