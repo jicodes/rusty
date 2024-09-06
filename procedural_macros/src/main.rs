@@ -2,6 +2,10 @@ use hello_macro::HelloMacro;
 use hello_macro_derive::HelloMacro;
 
 // Custom derive macros, only work on structs and enums
+// #[derive(Trait)]
+
+// derive macros allows you to automatically generate implementations of certain traits for your types. These macros are invoked using the #[derive(Trait)] attribute, where Trait is the name of the trait you want to implement.
+
 #[derive(HelloMacro)]
 struct Pancakes;
 
